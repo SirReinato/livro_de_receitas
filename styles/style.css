@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.background-header {
+  width: 100%;
+  background: #606C5D;
+}
+.background-header .container-header {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 17px 0;
+}
+.background-header .container-header .livro_de_receita {
+  width: 850px;
+  height: 465.841px;
+  flex-shrink: 0;
+  margin: 0 auto;
+  background: url("../../img/header/bg_header.png") no-repeat center;
+}
+.background-header .container-header .livro_de_receita h3 {
+  font-family: Jacques Francois;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: normal;
+  padding: 60px 0;
+  color: #606C5D;
+}
+.background-header .container-header .livro_de_receita h1 {
+  font-family: Jacques Francois Shadow;
+  font-size: 3.5rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  padding-bottom: 55px;
+  line-height: normal;
+  color: #606C5D;
+}
+.background-header .container-header .livro_de_receita figure {
+  width: 125.487px;
+  height: 171.035px;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+  .background-header {
+    width: 100%;
+    background: #606C5D;
+  }
+  .background-header .container-header {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 17px 0;
+  }
+  .background-header .container-header .livro_de_receita {
+    width: 85%;
+    height: 340px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    background: url("../../img/header/bg-header-Tablet.png") no-repeat center;
+  }
+  .background-header .container-header .livro_de_receita h3 {
+    font-family: Jacques Francois;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    padding: 40px 0;
+    color: #606C5D;
+  }
+  .background-header .container-header .livro_de_receita h1 {
+    font-family: Jacques Francois Shadow;
+    font-size: 2.5rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    line-height: normal;
+    color: #606C5D;
+  }
+  .background-header .container-header .livro_de_receita figure {
+    width: 100px;
+    height: 110px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+  .background-header .container-header .livro_de_receita figure img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 415px) {
+  .background-header {
+    width: 100%;
+    height: 252px;
+    background: #606C5D;
+  }
+  .background-header .container-header {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 17px 0;
+  }
+  .background-header .container-header .livro_de_receita {
+    width: 386px;
+    height: 211.55px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    background: url("../../img/header/bg-header-mobile.png") no-repeat center;
+  }
+  .background-header .container-header .livro_de_receita h3 {
+    font-family: Jacques Francois;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    padding: 20px 0;
+    color: #606C5D;
+  }
+  .background-header .container-header .livro_de_receita h1 {
+    font-family: Jacques Francois Shadow;
+    font-size: 2rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    line-height: normal;
+    color: #606C5D;
+  }
+  .background-header .container-header .livro_de_receita figure {
+    width: 56.986px;
+    height: 77.67px;
+    flex-shrink: 0;
+    margin: 0 auto;
+  }
+  .background-header .container-header .livro_de_receita figure img {
+    width: 100%;
+    height: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

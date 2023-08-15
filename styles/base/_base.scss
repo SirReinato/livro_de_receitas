@@ -1,0 +1,43 @@
+//CORES DO SITE
+$cor-verde: #606C5D;
+$cor-clarinho: #FFF4F4;
+$cor-amarelo-claro: #F7E6C4;
+$cor-amarelo-escuro: #F1C376;
+
+//Fontes do site
+$font-tituloPrincipal: 3.5rem;
+$font-tituloSecundarios: 2.5rem;
+$font-tituloTercearios: 2rem;
+$font-paragrafos: 1.5rem;
+
+
+@mixin containerDesktop{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@mixin containerTablet{
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@mixin containerMobile{
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+//resets
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
