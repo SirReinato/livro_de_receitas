@@ -1,0 +1,90 @@
+@import "../base/base";
+
+.receitas {
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  background: $cor-clarinho;
+  .receitas-container {
+    @include containerDesktop;
+    .receitas-item {
+      padding: 20px 0;
+      padding-bottom: 60px;
+      display: flex;
+      flex-direction: column;
+      h2 {
+        font-family: Jacques Francois;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px; /* 83.333% */
+        text-align: center;
+        margin-bottom: 100px;
+
+        color: $cor-verde-escuro;
+      }
+      .itens-receita-container {
+        width: 1072px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        .itens-receita {
+          width: 344px;
+          height: 540px;
+          display: flex;
+          flex-direction: column;
+
+          background: $cor-verde;
+          figure {
+            width: 344px;
+            height: 319.295px;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          button {
+            text-align: center;
+            font-family: Jacques Francois;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            padding: 36px 0 51px 0;
+            cursor: pointer;
+            background: none;
+            border: none;
+            line-height: 40px; /* 142.857% */
+            text-transform: capitalize;
+
+            color: $cor-clarinho;
+            &:hover {
+              @include animacao;
+              animation: cssAnimation_0 3000ms forwards ease-in;
+            }
+          }
+          span {
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px; /* 100% */
+
+            color: $cor-clarinho;
+          }
+        }
+      }
+    }
+  }
+}
+
+//RESPONSIVO TABLET
+@media (min-width: 500px) and (max-width: 1199px) {
+}
+
+//RESPONSIVO MOBILE
+@media (max-width: 415px) {
+}

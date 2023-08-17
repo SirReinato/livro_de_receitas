@@ -1,9 +1,9 @@
 //CORES DO SITE
-$cor-verde: #606C5D;
+$cor-verde: #606c5d;
 $cor-verde-escuro: #293725;
-$cor-clarinho: #FFF4F4;
-$cor-amarelo-claro: #F7E6C4;
-$cor-amarelo-escuro: #F1C376;
+$cor-clarinho: #fff4f4;
+$cor-amarelo-claro: #f7e6c4;
+$cor-amarelo-escuro: #f1c376;
 
 //Fontes do site
 $font-tituloPrincipal: 3.5rem;
@@ -11,34 +11,44 @@ $font-tituloSecundarios: 2.5rem;
 $font-tituloTercearios: 2rem;
 $font-paragrafos: 1.5rem;
 
-
-@mixin containerDesktop{
-    width: 1200px;
-    margin: 0 auto;
-    box-sizing: border-box;
+@mixin containerDesktop {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@mixin containerTablet{
-    width: 90%;
-    margin: 0 auto;
-    box-sizing: border-box;
+@mixin containerTablet {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
-@mixin containerMobile{
-    width: 90%;
-    margin: 0 auto;
-    box-sizing: border-box;
+@mixin containerMobile {
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
+
+//animacoes
+@mixin animacao{
+    @keyframes cssAnimation_0 {
+        to {
+          font-size: (28px + 5px);
+          color: rgba(191, 177, 15, 1);
+        }
+      }
+}
+
 
 //resets
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
