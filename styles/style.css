@@ -226,7 +226,7 @@ li {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 40px; /* 200% */
+  line-height: 40px;
   text-transform: uppercase;
   color: #293725;
 }
@@ -280,4 +280,111 @@ li {
   line-height: 25px;
   text-transform: capitalize;
   color: #293725;
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+  .banner-nav-container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0;
+    justify-content: center;
+  }
+  .banner-nav-container figure {
+    display: none;
+  }
+}
+@media (max-width: 415px) {
+  .banner-nav-container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px 0;
+    justify-content: center;
+  }
+  .banner-nav-container figure {
+    display: none;
+  }
+  .banner-nav-container .livro-banner {
+    width: 386.243px;
+    height: 336px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    background: url("../../img/banner/livro-banner-mobile.png") no-repeat center;
+  }
+  .banner-nav-container .livro-banner .nav-banner {
+    width: 141px;
+  }
+  .banner-nav-container .livro-banner .nav-banner h2 {
+    text-align: center;
+    font-family: Jacques Francois;
+    font-size: 32px;
+    font-style: normal;
+    padding-top: 30px;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+    text-transform: capitalize;
+    color: #293725;
+  }
+  .banner-nav-container .livro-banner .nav-banner nav {
+    display: flex;
+    width: 141px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 10px;
+  }
+  .banner-nav-container .livro-banner .nav-banner nav ul {
+    margin-top: -50px;
+  }
+  .banner-nav-container .livro-banner .nav-banner nav ul li {
+    margin-top: -5px;
+    text-align: center;
+  }
+  .banner-nav-container .livro-banner .nav-banner nav ul li a {
+    font-family: Jaldi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    text-transform: uppercase;
+    color: #293725;
+  }
+  .banner-nav-container .livro-banner .nav-banner nav ul li:hover::after {
+    content: "";
+    width: auto;
+    display: block;
+    border: 1px solid #293725;
+  }
+  .banner-nav-container .livro-banner .nav-banner .busca-submit {
+    display: flex;
+    width: 160px;
+    height: 28px;
+    padding-bottom: 0px;
+    position: absolute;
+    margin-left: 400px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4.156px;
+    flex-shrink: 0;
+  }
+  .banner-nav-container .livro-banner .nav-banner .busca-submit .buscar {
+    width: 150px;
+    background: none;
+    border: 1px solid #293725;
+    padding: 1px;
+  }
+  .banner-nav-container .livro-banner .nav-banner .busca-submit .btn-submit {
+    text-transform: uppercase;
+    padding: 1px;
+    background: #606C5D;
+    border: 2px solid #F1C376;
+    color: #F1C376;
+  }
+  .banner-nav-container .livro-banner .sobre-banner {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
