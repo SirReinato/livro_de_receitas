@@ -1,0 +1,125 @@
+@import "../base/base";
+
+.banner-nav-container {
+  @include containerDesktop;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  figure {
+    width: 485px;
+    height: 489px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .livro-banner {
+    width: 615px;
+    height: 535px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    background: url("../../img/banner/livro-banner.png") no-repeat center;
+    .nav-banner {
+      width: 250px;
+      h2 {
+        text-align: center;
+        font-family: Jacques Francois;
+        font-size: 32px;
+        font-style: normal;
+        padding-top: 81px;
+        padding-bottom: 60px;
+        font-weight: 400;
+        line-height: 40px; /* 125% */
+        text-transform: capitalize;
+
+        color: $cor-verde-escuro;
+      }
+      nav {
+        display: flex;
+        width: 210px;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+        gap: 10px;
+        ul {
+          li {
+            text-align: center;
+
+            a {
+              font-family: Jaldi;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 40px; /* 200% */
+              text-transform: uppercase;
+
+              color: $cor-verde-escuro;
+            }
+            &:hover::after {
+              content: "";
+              width: auto;
+              display: block;
+              border: 1px solid $cor-verde-escuro;
+            }
+          }
+        }
+      }
+      .busca-submit {
+        display: flex;
+        width: 252px;
+        height: 43px;
+        padding-right: 0px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 6.545px;
+        flex-shrink: 0;
+        .buscar {
+          background: none;
+          border: 1px solid $cor-verde-escuro;
+          padding: 3px;
+        }
+        .btn-submit {
+          text-transform: uppercase;
+          padding: 2px;
+          background: $cor-verde;
+          border: 2px solid $cor-amarelo-escuro;
+          color: $cor-amarelo-escuro;
+        }
+      }
+    }
+    .sobre-banner {
+      width: 240px;
+      h3 {
+        padding-top: 81px;
+        font-family: Jacques Francois;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px; /* 222.222% */
+        text-transform: capitalize;
+        padding-bottom: 50px;
+
+        color: $cor-verde-escuro;
+      }
+      p {
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25px;
+        text-transform: capitalize;
+
+        color: $cor-verde-escuro;
+      }
+    }
+  }
+}
+
+//RESPONSIVO TABLET
+@media (min-width: 500px) and (max-width: 1199px) {
+}
+
+//RESPONSIVO MOBILE
+@media (max-width: 415px) {
+}

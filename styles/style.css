@@ -156,4 +156,128 @@ li {
     width: 100%;
     height: 100%;
   }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.banner-nav-container {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-nav-container figure {
+  width: 485px;
+  height: 489px;
+}
+.banner-nav-container figure img {
+  width: 100%;
+  height: 100%;
+}
+.banner-nav-container .livro-banner {
+  width: 615px;
+  height: 535px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  background: url("../../img/banner/livro-banner.png") no-repeat center;
+}
+.banner-nav-container .livro-banner .nav-banner {
+  width: 250px;
+}
+.banner-nav-container .livro-banner .nav-banner h2 {
+  text-align: center;
+  font-family: Jacques Francois;
+  font-size: 32px;
+  font-style: normal;
+  padding-top: 81px;
+  padding-bottom: 60px;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  text-transform: capitalize;
+  color: #293725;
+}
+.banner-nav-container .livro-banner .nav-banner nav {
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+.banner-nav-container .livro-banner .nav-banner nav ul li {
+  text-align: center;
+}
+.banner-nav-container .livro-banner .nav-banner nav ul li a {
+  font-family: Jaldi;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 200% */
+  text-transform: uppercase;
+  color: #293725;
+}
+.banner-nav-container .livro-banner .nav-banner nav ul li:hover::after {
+  content: "";
+  width: auto;
+  display: block;
+  border: 1px solid #293725;
+}
+.banner-nav-container .livro-banner .nav-banner .busca-submit {
+  display: flex;
+  width: 252px;
+  height: 43px;
+  padding-right: 0px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6.545px;
+  flex-shrink: 0;
+}
+.banner-nav-container .livro-banner .nav-banner .busca-submit .buscar {
+  background: none;
+  border: 1px solid #293725;
+  padding: 3px;
+}
+.banner-nav-container .livro-banner .nav-banner .busca-submit .btn-submit {
+  text-transform: uppercase;
+  padding: 2px;
+  background: #606C5D;
+  border: 2px solid #F1C376;
+  color: #F1C376;
+}
+.banner-nav-container .livro-banner .sobre-banner {
+  width: 240px;
+}
+.banner-nav-container .livro-banner .sobre-banner h3 {
+  padding-top: 81px;
+  font-family: Jacques Francois;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 222.222% */
+  text-transform: capitalize;
+  padding-bottom: 50px;
+  color: #293725;
+}
+.banner-nav-container .livro-banner .sobre-banner p {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #293725;
 }/*# sourceMappingURL=style.css.map */
