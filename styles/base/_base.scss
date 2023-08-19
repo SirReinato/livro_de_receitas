@@ -11,6 +11,7 @@ $font-tituloSecundarios: 2.5rem;
 $font-tituloTercearios: 2rem;
 $font-paragrafos: 1.5rem;
 
+// containers
 @mixin containerDesktop {
   width: 1200px;
   margin: 0 auto;
@@ -31,7 +32,7 @@ $font-paragrafos: 1.5rem;
 
 //animacoes
 @mixin animacao{
-    @keyframes cssAnimation_0 {
+    @keyframes animaTexto {
         to {
           font-size: (28px + 5px);
           color: rgba(191, 177, 15, 1);
