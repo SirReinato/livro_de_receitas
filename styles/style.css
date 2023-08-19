@@ -542,4 +542,118 @@ li {
   .receitas .receitas-container .receitas-item .itens-receita-container .itens-receita:last-child {
     display: none;
   }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.informacoes-container {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  height: 800px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("../../img/informacoes/background-desktop.png") no-repeat center;
+}
+.informacoes-container .info-form {
+  width: 444px;
+  height: 247px;
+}
+.informacoes-container .info-form h3 {
+  font-family: Inter;
+  font-size: 1.5rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  color: #fff4f4;
+}
+.informacoes-container .info-form .tela-informacoes {
+  width: 244px;
+  height: 148px;
+  flex-shrink: 0;
+  margin: 30px auto;
+  border: 3px solid #f1c376;
+  background: #fff4f4;
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+  .informacoes-container {
+    width: 100%;
+    height: 800px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../../img/informacoes/background-tablet.png") no-repeat center;
+  }
+  .informacoes-container .info-form {
+    width: 300px;
+    height: 247px;
+  }
+  .informacoes-container .info-form h3 {
+    font-family: Inter;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #fff4f4;
+  }
+  .informacoes-container .info-form .tela-informacoes {
+    width: 200px;
+    height: 120px;
+    flex-shrink: 0;
+    margin: 30px auto;
+    border: 3px solid #f1c376;
+    background: #fff4f4;
+  }
+}
+@media (max-width: 415px) {
+  .informacoes-container {
+    width: 100%;
+    height: 367px;
+    margin: 400px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../../img/informacoes/background-mobile.png") no-repeat center;
+  }
+  .informacoes-container .info-form {
+    width: 120px;
+    height: 97px;
+  }
+  .informacoes-container .info-form h3 {
+    font-family: Inter;
+    font-size: 0.6rem;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #fff4f4;
+  }
+  .informacoes-container .info-form .tela-informacoes {
+    width: 95.822px;
+    height: 58.121px;
+    flex-shrink: 0;
+    margin: 5px auto;
+    border: 3px solid #f1c376;
+    background: #fff4f4;
+  }
 }/*# sourceMappingURL=style.css.map */
