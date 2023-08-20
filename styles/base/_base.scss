@@ -43,6 +43,9 @@ $font-paragrafos: 1.5rem;
 
 
 //resets
+html{
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
