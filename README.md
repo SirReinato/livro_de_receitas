@@ -1,10 +1,10 @@
-#LIVRO DE RECEITAS
+# LIVRO DE RECEITAS
 
-###OBJETIVOS
+### OBJETIVOS
 > Tem como objetivo a pratica de alguns conteúdos estudados no curso de javaScript, colocando em prática do zero. Esse site vai conter apenas algumas receitas.
 
 
-###Missões
+### Missões
 
 1. Criar o templete no figma.
 
