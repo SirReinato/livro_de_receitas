@@ -119,7 +119,7 @@ li {
     padding: 17px 0;
   }
   .background-header .container-header .livro_de_receita {
-    width: 386px;
+    width: 98%;
     height: 211.55px;
     flex-shrink: 0;
     margin: 0 auto;
@@ -127,7 +127,7 @@ li {
   }
   .background-header .container-header .livro_de_receita h3 {
     font-family: Jacques Francois;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 400;
     text-align: center;
@@ -137,7 +137,7 @@ li {
   }
   .background-header .container-header .livro_de_receita h1 {
     font-family: Jacques Francois Shadow;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     font-style: normal;
     font-weight: 400;
@@ -306,7 +306,7 @@ li {
     display: none;
   }
   .banner-nav-container .livro-banner {
-    width: 386.243px;
+    width: 100%;
     height: 336px;
     flex-shrink: 0;
     display: flex;
@@ -315,12 +315,12 @@ li {
     background: url("../../img/banner/livro-banner-mobile.png") no-repeat center;
   }
   .banner-nav-container .livro-banner .nav-banner {
-    width: 141px;
+    width: 130px;
   }
   .banner-nav-container .livro-banner .nav-banner h2 {
     text-align: center;
     font-family: Jacques Francois;
-    font-size: 32px;
+    font-size: 1.5rem;
     font-style: normal;
     padding-top: 30px;
     font-weight: 400;
@@ -330,7 +330,7 @@ li {
   }
   .banner-nav-container .livro-banner .nav-banner nav {
     display: flex;
-    width: 141px;
+    width: 130px;
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
@@ -345,7 +345,7 @@ li {
   }
   .banner-nav-container .livro-banner .nav-banner nav ul li a {
     font-family: Jaldi;
-    font-size: 16px;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */
@@ -360,11 +360,11 @@ li {
   }
   .banner-nav-container .livro-banner .nav-banner .busca-submit {
     display: flex;
-    width: 160px;
+    width: 130px;
     height: 28px;
     padding-bottom: 0px;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 330px;
     justify-content: center;
     flex-direction: column;
     align-items: center;

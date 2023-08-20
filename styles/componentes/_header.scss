@@ -106,14 +106,14 @@
       @include containerMobile;
       padding: 17px 0;
       .livro_de_receita {
-        width: 386px;
+        width: 98%;
         height: 211.55px;
         flex-shrink: 0;
         margin: 0 auto;
         background: url("../../img/header/bg-header-mobile.png") no-repeat center;
         h3 {
           font-family: Jacques Francois;
-          font-size: $font-paragrafos;
+          font-size: ($font-paragrafos - 0.2rem);
           font-style: normal;
           font-weight: 400;
           text-align: center;
@@ -124,7 +124,7 @@
         }
         h1 {
           font-family: Jacques Francois Shadow;
-          font-size: $font-tituloTercearios;
+          font-size: ($font-tituloTercearios - 0.4rem);
           text-align: center;
           font-style: normal;
           font-weight: 400;
