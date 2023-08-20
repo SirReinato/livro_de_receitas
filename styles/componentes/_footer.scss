@@ -1,0 +1,209 @@
+@import "../base/base";
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+
+  background: $cor-verde;
+  .footer-container {
+    @include containerDesktop;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .novidades {
+      width: 336.685px;
+      height: 97px;
+      flex-shrink: 0;
+      form {
+        label {
+          font-family: Inter;
+          font-size: $font-paragrafos;
+          font-style: normal;
+          font-weight: 700;
+          display: block;
+          padding: 10px 0;
+          line-height: normal;
+
+          color: $cor-amarelo-escuro;
+        }
+        .email {
+          width: 218.696px;
+          padding: 5px 0;
+          flex-shrink: 0;
+          border: 3px solid $cor-amarelo-escuro;
+
+          background: none;
+        }
+        .btn-email {
+          display: inline-flex;
+          padding: 0 10px;
+          height: 30px;
+          justify-content: center;
+          position: absolute;
+          cursor: pointer;
+          margin-left: 10px;
+          border: none;
+          align-items: center;
+          gap: 10px;
+          font-family: Inter;
+          font-size: $font-paragrafos;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: $cor-verde;
+          background: $cor-amarelo-escuro;
+        }
+      }
+    }
+    .logo-footer {
+      display: flex;
+      width: 270.624px;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      h3 {
+        font-family: Jacques Francois;
+        font-size: $font-tituloTercearios;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        color: $cor-amarelo-escuro;
+      }
+    }
+    .nav-footer {
+      padding: 0 20px;
+      ul {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+//RESPONSIVO TABLET
+@media (min-width: 500px) and (max-width: 1199px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    background: $cor-verde;
+    .footer-container {
+      @include containerTablet;
+
+      .novidades {
+        width: 220px;
+        height: 97px;
+        flex-shrink: 0;
+        form {
+          label {
+            font-family: Inter;
+            font-size: $font-paragrafos;
+            font-style: normal;
+            font-weight: 700;
+            display: block;
+            padding: 10px 0;
+            line-height: normal;
+
+            color: $cor-amarelo-escuro;
+          }
+          .email {
+            width: 180px;
+            padding: 5px 0;
+            flex-shrink: 0;
+            border: 3px solid $cor-amarelo-escuro;
+
+            background: none;
+          }
+          .btn-email {
+            display: inline-flex;
+            padding: 0 10px;
+            height: 30px;
+            justify-content: center;
+            position: absolute;
+            cursor: pointer;
+            margin-left: 10px;
+            border: none;
+            align-items: center;
+            gap: 10px;
+            font-family: Inter;
+            font-size: $font-paragrafos;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: $cor-verde;
+            background: $cor-amarelo-escuro;
+          }
+        }
+      }
+      .logo-footer {
+        display: flex;
+        width: 270.624px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        h3 {
+          font-family: Jacques Francois;
+          font-size: $font-paragrafos;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          color: $cor-amarelo-escuro;
+        }
+      }
+    }
+  }
+}
+//RESPONSIVO MOBILE
+@media (max-width: 415px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+    background: $cor-verde;
+    .footer-container {
+      @include containerMobile;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+      .novidades {
+        width: 80%;
+      }
+      .logo-footer {
+        display: flex;
+        width: 270.624px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        h3 {
+          font-family: Jacques Francois;
+          font-size: $font-paragrafos;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+
+          color: $cor-amarelo-escuro;
+        }
+      }
+      .nav-footer {
+        padding: 0 20px;
+        ul {
+          display: flex;
+          align-items: flex-start;
+          gap: 20px;
+          li{
+            a{
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

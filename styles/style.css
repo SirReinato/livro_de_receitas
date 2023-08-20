@@ -628,7 +628,7 @@ li {
   .informacoes-container {
     width: 100%;
     height: 367px;
-    margin: 400px auto;
+    margin: 100px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -655,5 +655,213 @@ li {
     margin: 5px auto;
     border: 3px solid #f1c376;
     background: #fff4f4;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background: #606c5d;
+}
+footer .footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer-container .novidades {
+  width: 336.685px;
+  height: 97px;
+  flex-shrink: 0;
+}
+footer .footer-container .novidades form label {
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  display: block;
+  padding: 10px 0;
+  line-height: normal;
+  color: #f1c376;
+}
+footer .footer-container .novidades form .email {
+  width: 218.696px;
+  padding: 5px 0;
+  flex-shrink: 0;
+  border: 3px solid #f1c376;
+  background: none;
+}
+footer .footer-container .novidades form .btn-email {
+  display: inline-flex;
+  padding: 0 10px;
+  height: 30px;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+  margin-left: 10px;
+  border: none;
+  align-items: center;
+  gap: 10px;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #606c5d;
+  background: #f1c376;
+}
+footer .footer-container .logo-footer {
+  display: flex;
+  width: 270.624px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+footer .footer-container .logo-footer h3 {
+  font-family: Jacques Francois;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #f1c376;
+}
+footer .footer-container .nav-footer {
+  padding: 0 20px;
+}
+footer .footer-container .nav-footer ul {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+@media (min-width: 500px) and (max-width: 1199px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: #606c5d;
+  }
+  footer .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  footer .footer-container .novidades {
+    width: 220px;
+    height: 97px;
+    flex-shrink: 0;
+  }
+  footer .footer-container .novidades form label {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    display: block;
+    padding: 10px 0;
+    line-height: normal;
+    color: #f1c376;
+  }
+  footer .footer-container .novidades form .email {
+    width: 180px;
+    padding: 5px 0;
+    flex-shrink: 0;
+    border: 3px solid #f1c376;
+    background: none;
+  }
+  footer .footer-container .novidades form .btn-email {
+    display: inline-flex;
+    padding: 0 10px;
+    height: 30px;
+    justify-content: center;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 10px;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #606c5d;
+    background: #f1c376;
+  }
+  footer .footer-container .logo-footer {
+    display: flex;
+    width: 270.624px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  footer .footer-container .logo-footer h3 {
+    font-family: Jacques Francois;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #f1c376;
+  }
+}
+@media (max-width: 415px) {
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    background: #606c5d;
+  }
+  footer .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .footer-container .novidades {
+    width: 80%;
+  }
+  footer .footer-container .logo-footer {
+    display: flex;
+    width: 270.624px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  footer .footer-container .logo-footer h3 {
+    font-family: Jacques Francois;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #f1c376;
+  }
+  footer .footer-container .nav-footer {
+    padding: 0 20px;
+  }
+  footer .footer-container .nav-footer ul {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  footer .footer-container .nav-footer ul li a {
+    cursor: pointer;
   }
 }/*# sourceMappingURL=style.css.map */
