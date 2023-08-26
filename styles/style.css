@@ -430,6 +430,7 @@ li {
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .receitas .receitas-container .receitas-item h2 {
   font-family: Jacques Francois;
@@ -441,28 +442,51 @@ li {
   margin-bottom: 100px;
   color: #293725;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container {
-  width: 1072px;
+.receitas .receitas-container .receitas-item #proxima {
+  width: 127px;
+  height: 100px;
+  background: none;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  right: 8%;
+}
+.receitas .receitas-container .receitas-item #retornar {
+  width: 127px;
+  height: 100px;
+  background: none;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+  left: 8%;
+}
+.receitas .receitas-container .receitas-item .conteiner {
+  width: 1080px;
   display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+  overflow: hidden;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens {
+  display: flex;
+  grid-gap: 1em;
+  transition: all 1s ease-in-out;
+}
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita {
   width: 344px;
   height: 540px;
   display: flex;
   flex-direction: column;
   background: #606c5d;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita figure {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita figure {
   width: 344px;
   height: 319.295px;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita figure img {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita figure img {
   width: 100%;
   height: 100%;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita button {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita button {
   text-align: center;
   font-family: Jacques Francois;
   font-size: 28px;
@@ -476,7 +500,7 @@ li {
   text-transform: capitalize;
   color: #fff4f4;
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita button:hover {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita button:hover {
   animation: animaTexto 3000ms forwards ease-in;
 }
 @keyframes animaTexto {
@@ -485,7 +509,7 @@ li {
     color: rgb(191, 177, 15);
   }
 }
-.receitas .receitas-container .receitas-item .itens-receita-container .itens-receita span {
+.receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita span {
   margin: 0 auto;
   text-align: center;
   position: relative;
