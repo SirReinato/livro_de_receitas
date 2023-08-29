@@ -442,7 +442,7 @@ li {
   margin-bottom: 100px;
   color: #293725;
 }
-.receitas .receitas-container .receitas-item #proxima {
+.receitas .receitas-container .receitas-item .proxima {
   width: 127px;
   height: 100px;
   background: none;
@@ -451,7 +451,7 @@ li {
   cursor: pointer;
   right: 8%;
 }
-.receitas .receitas-container .receitas-item #retornar {
+.receitas .receitas-container .receitas-item .retornar {
   width: 127px;
   height: 100px;
   background: none;
@@ -469,6 +469,8 @@ li {
 .receitas .receitas-container .receitas-item .conteiner .vitrine-itens {
   display: flex;
   grid-gap: 1em;
+  justify-content: center;
+  align-items: center;
   transition: all 1s ease-in-out;
 }
 .receitas .receitas-container .receitas-item .conteiner .vitrine-itens .itens-receita {

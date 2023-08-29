@@ -2,12 +2,25 @@ export function carrossel01() {
   const btnProxima = document.querySelector("#proxima");
   const btnRetornar = document.querySelector("#retornar");
 
+  const almoco = document.querySelector('[data-slide="almoco"]');
+  const paes = document.querySelector('[data-slide="paes"]');
+  const lanches = document.querySelector('[data-slide="lanches"]');
+  const pizzas = document.querySelector('[data-slide="pizzas"]');
+
+  
   const proximoTeste = document.querySelectorAll(".proxima");
   console.log(proximoTeste);
 
   proximoTeste.forEach((exato) => {
-    sera = exato.parentElement.querySelector(this);
-    
+    exato.addEventListener('click', (qualFoiEm)=>{
+      const local = qualFoiEm.currentTarget.id;
+      const slide = qualFoiEm.currentTarget.parentNode.getAttribute('data-slide');
+
+      if (local === 'almoco') {
+        valorDoEixo += mais;
+        almoco.style.transform = `translateX(${valorDoEixo}px)`;
+      }
+    })
 
     // queroEsse.addEventListener("click", (esseAqui) => {
     //   esseAqui.currentTarget.addEventListener('click', (esse)=>{
@@ -45,12 +58,12 @@ export function carrossel01() {
   // });
 
   // btnVoltar
-  btnRetornar.addEventListener("click", () => {
-    if (valorDoEixo === valorDoEixoZerado) {
-      slides.style.transform = `translateX(${valorDoEixoZerado}px)`;
-    } else {
-      valorDoEixo += menos;
-      slides.style.transform = `translateX(${valorDoEixo}px)`;
-    }
-  });
+  // btnRetornar.addEventListener("click", () => {
+  //   if (valorDoEixo === valorDoEixoZerado) {
+  //     slides.style.transform = `translateX(${valorDoEixoZerado}px)`;
+  //   } else {
+  //     valorDoEixo += menos;
+  //     slides.style.transform = `translateX(${valorDoEixo}px)`;
+  //   }
+  // });
 }
