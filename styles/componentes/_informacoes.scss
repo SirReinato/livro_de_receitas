@@ -28,9 +28,16 @@
       width: 244px;
       height: 148px;
       flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       margin: 30px auto;
       border: 3px solid $cor-amarelo-escuro;
       background: $cor-clarinho;
+      h4{
+        font-size: ($font-tituloPrincipal);
+        color: $cor-verde;
+      }
     }
   }
 }

@@ -628,9 +628,16 @@ li {
   width: 244px;
   height: 148px;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 30px auto;
   border: 3px solid #f1c376;
   background: #fff4f4;
+}
+.informacoes-container .info-form .tela-informacoes h4 {
+  font-size: 3.5rem;
+  color: #606c5d;
 }
 
 @media (min-width: 500px) and (max-width: 1199px) {
